@@ -1,0 +1,94 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+div.card{
+  width: 310px;
+  height: 480px;
+  padding: 5px 10px 5px 10px;
+  border: 10px solid gold;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgb(78, 78, 78);
+}  
+
+div.yellow {
+  background: linear-gradient(130deg, rgba(253,237,29,1) 2%, rgba(253,181,29,1) 51%, rgba(249,252,69,1) 100%); 
+}
+
+div.blue {
+  background: linear-gradient(130deg, rgba(29,253,237,1) 2%, rgba(29,152,253,1) 51%, rgba(69,240,252,1) 100%); 
+}
+
+div.green {
+  background: linear-gradient(130deg, rgba(29,253,87,1) 2%, rgba(20,145,21,1) 51%, rgba(108,252,69,1) 100%); 
+}
+
+div.orangeRed {
+  background: linear-gradient(130deg, rgba(253,136,29,1) 2%, rgba(223,63,13,1) 51%, rgba(252,181,69,1) 100%); 
+}
+
+div.imgdsc{
+  box-shadow: 3px 3px 10px #000;
+}
+
+img{
+  padding: 0px;
+  margin: 0px 0px -5px 0px;
+  border: 5px yellow groove;
+  border-bottom-width: 0px;
+  /* Ensure the images are always correct size
+  Note this will skew images of the wrong ratio */
+  width: 300px;
+  height: 190px;
+}
+
+p.base{
+  width: 40px;
+  height: 18px;
+  padding: 1px 1px 1px 1px;
+  background: linear-gradient(109deg, rgba(152,152,152,1) 2%, rgba(231,231,231,1) 51%, rgba(175,175,175,1) 100%); 
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+}
+
+td.name{
+  padding: 2px 2px 2px 2px;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  border-radius: 5px;
+}
+
+td.pv{
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+  width: 133px;
+
+}
+
+td.nbpv{
+  font-size: 20px;
+  font-weight: 900;
+  text-align: right;
+}
+
+p.description {
+  
+  /* This is skinnier than the image above it */
+  width: 296px; /* DO NOT REMOVE, HEATHER! */
+  padding: 2px 2px 2px 2px;
+  margin: 0px 0px 0px 0px;
+  background: linear-gradient(130deg, rgba(166,166,166,1) 2%, rgba(231,231,231,1) 51%, rgba(203,203,203,1) 100%);
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  border: 5px yellow groove;
+  
+}
